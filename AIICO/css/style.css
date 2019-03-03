@@ -1,0 +1,324 @@
+/*font*/
+@font-face {
+    font-family: 'ITCAvantBold';
+    src: url('../fonts/texgyreadventor-Bold.otf');
+    src: url('../fonts/texgyreadventor-Bold.otf?#iefix') format('opentype'),
+         url('../fonts/fonts/texgyreadventor-Bold.woff2') format('woff2'),
+         url('../fonts/texgyreadventor-Bold.woff') format('woff'),
+         url('../fonts/texgyreadventor-Bold.ttf') format('truetype'),
+         url('../fonts/texgyreadventor-Bold.svg#ITCAvantGardePro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}@font-face {
+    font-family: 'texgyreadventor-regular';
+    src: url('../fonts/texgyreadventor-regular.otf');
+    src: url('../fonts/texgyreadventor-regular.otf?#iefix') format('opentype'),
+         url('../fonts/texgyreadventor-regular.woff2') format('woff2'),
+         url('../fonts/texgyreadventor-regular.woff') format('woff'),
+         url('../fonts/texgyreadventor-regular.ttf') format('truetype'),
+         url('../fonts/texgyreadventor-regular.svg#texgyreadventor-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ITCAvantGardeGothicLTBold';
+    src: url('../fonts/ITCAvantGardeGothicLTBold.otf');
+    src: url('../fonts/ITCAvantGardeGothicLTBold.otf?#iefix') format('opentype'),
+         url('../fonts/ITCAvantGardeGothicLTBold.woff2') format('woff2'),
+         url('../fonts/ITCAvantGardeGothicLTBold.woff') format('woff'),
+         url('../fonts/ITCAvantGardeGothicLTBold.ttf') format('truetype'),
+         url('../fonts/ITCAvantGardeGothicLTBold.svg#ITCAvantGardePro-Demibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*font*/
+.fa-long-arrow-alt-right{
+	width: 100px;
+	height: 50px;
+	background-color: red;
+}
+/*logo*/
+.logo{
+	position: absolute;
+	margin-top: 10px;
+	top: -30px;
+	left:15px;
+}
+.logo img{
+	width: 150px;
+	height: inherit;
+}
+/*logo*/
+
+/*pre-banner*/
+.pre-banner{
+	margin-top: 50px;
+}
+.pre-banner h1{
+	font-size: 30px;
+	color: #2ca2f3;
+	font-weight: bold;
+}
+.pre-banner p{
+	color: #929292;
+	font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-family: "georgia";
+    letter-spacing: 1.5;
+}
+/*pre-banner*/
+
+/*banner*/
+.banner{
+	margin-top: 20px;
+	width: 100%;
+	height: inherit;
+	background-image: url("../images/Asset-2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+.banner img{
+	margin-top: 30px; 
+	margin-bottom: 40px; 
+	width: 70%;
+	height: auto;
+	text-align: center;
+	position: relative;	
+}
+/*banner*/
+
+/*section-one*/
+.section-one{
+	margin: 50px 20px;
+}
+.section-one p{
+	margin-top: 20px;
+	font-family: georgia;
+	font-size: 14px;
+}
+.section-one h1{
+	font-family: "ITCAvantGardeGothicLTBold";
+	color: #2ca2f3;
+	font-size: 30px;
+}	
+.section-one a{
+	font-weight: bold;
+}
+.section-one a:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+/*section-one*/
+
+/*section-two*/
+.sectioon-two{
+	width: 100%;
+	height: auto;
+	background-color: #fcfcfc;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+.sec-two{
+	margin: 50px 0;
+	padding: 0;
+	margin: 0px;
+	margin-right: 50px;
+	padding-right: 30px; 
+	
+}
+.sectioon-two p{
+	margin-top: 20px;
+	font-family: georgia;
+	font-size: 14px;
+}
+.sectioon-two h1{
+	font-family: "ITCAvantGardeGothicLTBold";
+	color: #2ca2f3;
+	font-size: 30px;
+}	
+.sectioon-two h3{
+	font-family: "texgyreadventor-regular";
+	color: #2ca2f3;	
+	font-size: 20px;
+	font-weight: normal;
+}
+.sectioon-two img{
+	width: 70%;
+	height: auto;
+	/*padding: 20px;
+	/*text-align: center;*/
+	/*position: relative;	*/
+	/*top: 60px;*/
+}*/
+/*section-two*/
+
+/*section-three*/
+.section-three{
+	margin: 50px 20px; 
+	padding-top: 90px;
+}
+.section-three p{
+	margin-top: 20px;
+	font-family: georgia;
+	font-size: 14px;
+}
+
+.section-three h1{
+	font-family: "ITCAvantGardeGothicLTBold";
+	color: #2ca2f3;
+	font-size: 30px;
+	top: 30px;
+}	
+.section-three img{
+	width: 80%;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+	position: relative;	
+	top: -35px;
+}
+/*section-three*/
+
+/*section-four*/
+.section-four{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+/*section-four*/
+
+/*service-one*/
+.service-one{
+	top: 50px;
+}
+#left{
+	margin-top: 100px;
+}
+.service-one p,.section-two p, .section-three p, .section-four p, .section-five p{
+	margin-top: 20px;
+	font-family: georgia;
+	font-size: 14px;
+
+}
+.service-one img,.section-two img, .section-three img, .section-four img, .section-five img{
+	width: 70%;
+	height: auto;
+	margin-left: 30px;
+}
+.service-one h3{
+	font-family: "ITCAvantGardeGothicLTBold";
+	color: #2ca2f3;	
+}
+/*service-one*/
+.service-one,.section-two, .section-three , .section-four, .section-five {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align:center;
+	margin: auto; 
+	margin-top: 50px;
+}
+.service-one,.section-two, .section-three , .section-four, .section-five h3{
+	font-family: "ITCAvantGardeGothicLTBold";
+	color: #2ca2f3;	
+	/*font-size: 20px;*/
+	font-weight: normal;
+}
+	
+h3{
+	font-family: "texgyreadventor-regular";
+	color: #2ca2f3;	
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+
+h1{
+	font-family: "ITCAvantGardeGothicLTBold";
+	color: #2ca2f3;
+}
+p{
+	color: #929292;
+}
+
+
+.wrapper{
+	padding: 0;
+}
+
+
+
+.main-content p{
+	margin-top: 20px;
+}
+
+video{
+	width: 100%;
+	height: inherit;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*picture-section*/
+.picture{
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+}
+.picture p{
+	font-family: "texgyreadventor-regular";
+	color: #000;	
+	font-size: 12px;
+	font-weight: normal;
+}
+figcaption{
+	font-family: "texgyreadventor-regular";
+	color: #000;	
+	font-size: 16px;
+	font-weight: bold;
+}
+.picture img{
+	width: 90%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+/*picture-section*/
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: inherit;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer h1{
+	font-size: 60px;
+	color: #000;
+}
+#footer-h1, #footer-p{
+	position: relative;
+	top: -60px;
+	color: #000;
+	margin-bottom: 20px;
+}
+.footer a{
+	position: relative;
+	top: -30px;
+	text-decoration: none;
+	background-color: #da1c5c;
+	color: #fff;
+	padding: 10px;
+	border-radius: 20px;
+}
+/*footer*/
