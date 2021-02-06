@@ -1,0 +1,20 @@
+{
+  "name": "aiico-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbey5k4/AIICO-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbey5k4/AIICO-project/issues"
+  },
+  "homepage": "https://github.com/abbey5k4/AIICO-project#readme"
+}
